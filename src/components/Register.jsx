@@ -89,6 +89,7 @@ useEffect(()=>{
   }
 };
 
+//handleSubmit fonksiyonunda form verileri axios kullanılarak sunucuya gönderildi.
   const handleSubmit=(event)=>{
     //Sayfanın baştan yüklenmesini engelliyorum.
     event.preventDefault();
