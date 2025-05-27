@@ -1,3 +1,4 @@
+//cypress testleri oluşturuldu.
 import { errorMessages } from "../../src/components/Register";
    //beforeForEach(()=>{
    //cy.visit("http://localhost:5174/"); 
