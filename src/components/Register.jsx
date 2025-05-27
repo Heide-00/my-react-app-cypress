@@ -42,7 +42,7 @@ const validateEmail = (email) => {
 
 let regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@.#$!%*?&])[A-Za-z\d@.#$!%*?&]{8,15}$/;
 
-//isvalid kontrolü yapacağım.
+//isvalid kontrolü yapıldı.
 useEffect(()=>{
   if(
     formData.ad.trim().length>=3 &&
@@ -63,7 +63,7 @@ useEffect(()=>{
   const {name,value}=event.target;
   //Form datadaki bilgileri değiştireceğim.
   setFormData=({...formData,[name]:value});
-  //Validasyonu yapacağım
+  //Validasyon yapıldı.
   if(name=="ad" || name=="soyad"){
     if(value.trim().length>=3){
       setErrors({...errors,[name]:false})
