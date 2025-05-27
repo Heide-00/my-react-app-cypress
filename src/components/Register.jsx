@@ -57,7 +57,7 @@ useEffect(()=>{
 },[formData]);
 
 
-
+//handleChange fonksiyonu oluşturdum(kullanıcının yazdığı veriyi takip etmek için)
   const handleChange=(event)=>{
   //name ve value 'i destruct ediyorum.
   const {name,value}=event.target;
