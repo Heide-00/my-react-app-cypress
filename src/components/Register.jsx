@@ -102,7 +102,7 @@ useEffect(()=>{
       console.error(error);
     })
   }
-  //İnput dışında hata mesajlarını gösterdim.
+  //İnput dışında hata mesajları oluşturuldu.
     return (
     <Card>
 <CardHeader>
@@ -122,6 +122,7 @@ useEffect(()=>{
       invalid={errors.ad}
       data-cy="ad-input"
     />
+    
     {errors.ad &&  <FormFeedback data-cy="error-message">{errorMessages.ad}</FormFeedback>}
   </FormGroup>
    <FormGroup>
