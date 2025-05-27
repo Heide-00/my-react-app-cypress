@@ -18,7 +18,7 @@ export const errorMessages={
 }
 
 export default function Register(){
-  //Formdata'yı tutacak bir tane state oluşturuyorum.
+  //Formdata'yı tutacak bir tane state oluşturuldu.
   const [formData,setFormData]=useState(initialValues);
   //Validasyon ekleyeceğim.
 const [errors,setErrors]=useState({
